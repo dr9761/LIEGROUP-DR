@@ -1,0 +1,29 @@
+function save_Result(do_save_Result, ...
+	ExcelFileDir,ExcelFileName, ...
+	ModelParameter,SolverParameter, ...
+	opt,tspan,x_set,t_set,SolvingTime)
+%%
+do_save_Result = do_save_Result && ...
+	SolverParameter.Result.SaveResult;
+if t_set(end) == tspan(2)
+	do_save_Result = do_save_Result & true;
+else
+	do_save_Result = do_save_Result & false;
+end
+%%
+if do_save_Result
+	ResultFileAddress = ...
+		['Result\',datestr(now,'yyyymmdd_HHMM'),ExcelFileName];
+	mkdir(ResultFileAddress);
+	ExcelFilePath = [ExcelFileDir,'\',ExcelFileName,'.xlsx'];
+	copyfile(ExcelFilePath,ResultFileAddress);
+	save([ResultFileAddress,'\Parameter.mat'], ...
+		'ModelParameter','SolverParameter', ...
+		'opt','tspan', ...
+		'x_set','t_set','SolvingTime');
+	save([ResultFileAddress,'\OdeSetup.mat'],'opt','tspan');
+	save([ResultFileAddress,'\Result.mat'], ...
+		'x_set','t_set','SolvingTime');
+end
+
+end

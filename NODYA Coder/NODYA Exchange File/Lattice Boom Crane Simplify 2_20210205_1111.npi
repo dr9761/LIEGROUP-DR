@@ -1,0 +1,1120 @@
+! =============================Node============================
+! Node
+node 1 type = standard 0.000000 0.000000 0.000000
+node 3 type = standard 11.000000 0.000000 0.000000
+node 4 type = standard 0.000000 1.500000 0.000000
+node 5 type = standard 0.000000 -1.500000 0.000000
+node 6 type = standard -1.830451 1.500000 4.858955
+node 7 type = standard -1.830451 -1.500000 4.858955
+node 8 type = standard 0.958894 -1.500000 5.102992
+node 9 type = standard 0.958894 1.500000 5.102992
+node 10 type = standard -0.610150 1.500000 1.619652
+node 11 type = standard -1.220301 1.500000 3.239304
+node 12 type = standard -0.610150 -1.500000 1.619652
+node 13 type = standard -1.220301 -1.500000 3.239304
+node 14 type = standard 0.319631 -1.500000 1.700997
+node 15 type = standard 0.639263 -1.500000 3.401994
+node 16 type = standard 0.319631 1.500000 1.700997
+node 17 type = standard 0.639263 1.500000 3.401994
+node 22 type = standard -3.137787 1.500000 19.801876
+node 23 type = standard -3.137787 -1.500000 19.801876
+node 24 type = standard -0.348442 -1.500000 20.045912
+node 25 type = standard -0.348442 1.500000 20.045912
+node 26 type = standard -2.048341 1.500000 7.349442
+node 27 type = standard -2.266230 1.500000 9.839929
+node 28 type = standard -2.484119 1.500000 12.330416
+node 29 type = standard -2.702009 1.500000 14.820902
+node 30 type = standard -2.919898 1.500000 17.311389
+node 31 type = standard -2.048341 -1.500000 7.349442
+node 32 type = standard -2.266230 -1.500000 9.839929
+node 33 type = standard -2.484119 -1.500000 12.330416
+node 34 type = standard -2.702009 -1.500000 14.820902
+node 35 type = standard -2.919898 -1.500000 17.311389
+node 36 type = standard 0.741005 -1.500000 7.593478
+node 37 type = standard 0.523115 -1.500000 10.083965
+node 38 type = standard 0.305226 -1.500000 12.574452
+node 39 type = standard 0.087336 -1.500000 15.064939
+node 40 type = standard -0.130553 -1.500000 17.555425
+node 41 type = standard 0.741005 1.500000 7.593478
+node 42 type = standard 0.523115 1.500000 10.083965
+node 43 type = standard 0.305226 1.500000 12.574452
+node 44 type = standard 0.087336 1.500000 15.064939
+node 45 type = standard -0.130553 1.500000 17.555425
+node 50 type = standard -4.445124 1.500000 34.744796
+node 51 type = standard -4.445124 -1.500000 34.744796
+node 52 type = standard -1.655778 -1.500000 34.988832
+node 53 type = standard -1.655778 1.500000 34.988832
+node 54 type = standard -3.355677 1.500000 22.292363
+node 55 type = standard -3.573566 1.500000 24.782849
+node 56 type = standard -3.791456 1.500000 27.273336
+node 57 type = standard -4.009345 1.500000 29.763823
+node 58 type = standard -4.227234 1.500000 32.254310
+node 59 type = standard -3.355677 -1.500000 22.292363
+node 60 type = standard -3.573566 -1.500000 24.782849
+node 61 type = standard -3.791456 -1.500000 27.273336
+node 62 type = standard -4.009345 -1.500000 29.763823
+node 63 type = standard -4.227234 -1.500000 32.254310
+node 64 type = standard -0.566332 -1.500000 22.536399
+node 65 type = standard -0.784221 -1.500000 25.026885
+node 66 type = standard -1.002110 -1.500000 27.517372
+node 67 type = standard -1.220000 -1.500000 30.007859
+node 68 type = standard -1.437889 -1.500000 32.498346
+node 69 type = standard -0.566332 1.500000 22.536399
+node 70 type = standard -0.784221 1.500000 25.026885
+node 71 type = standard -1.002110 1.500000 27.517372
+node 72 type = standard -1.220000 1.500000 30.007859
+node 73 type = standard -1.437889 1.500000 32.498346
+node 78 type = standard -5.752460 1.500000 49.687717
+node 79 type = standard -5.752460 -1.500000 49.687717
+node 80 type = standard -2.963115 -1.500000 49.931753
+node 81 type = standard -2.963115 1.500000 49.931753
+node 82 type = standard -4.663013 1.500000 37.235283
+node 83 type = standard -4.880902 1.500000 39.725770
+node 84 type = standard -5.098792 1.500000 42.216257
+node 85 type = standard -5.316681 1.500000 44.706743
+node 86 type = standard -5.534570 1.500000 47.197230
+node 87 type = standard -4.663013 -1.500000 37.235283
+node 88 type = standard -4.880902 -1.500000 39.725770
+node 89 type = standard -5.098792 -1.500000 42.216257
+node 90 type = standard -5.316681 -1.500000 44.706743
+node 91 type = standard -5.534570 -1.500000 47.197230
+node 92 type = standard -1.873668 -1.500000 37.479319
+node 93 type = standard -2.091557 -1.500000 39.969806
+node 94 type = standard -2.309446 -1.500000 42.460293
+node 95 type = standard -2.527336 -1.500000 44.950779
+node 96 type = standard -2.745225 -1.500000 47.441266
+node 97 type = standard -1.873668 1.500000 37.479319
+node 98 type = standard -2.091557 1.500000 39.969806
+node 99 type = standard -2.309446 1.500000 42.460293
+node 100 type = standard -2.527336 1.500000 44.950779
+node 101 type = standard -2.745225 1.500000 47.441266
+node 106 type = standard -5.988999 1.300000 54.686122
+node 107 type = standard -5.988999 -1.300000 54.686122
+node 108 type = standard -3.598132 -1.300000 54.895295
+node 109 type = standard -3.598132 1.300000 54.895295
+node 110 type = standard -5.831306 1.433333 51.353852
+node 111 type = standard -5.910153 1.366667 53.019987
+node 112 type = standard -5.831306 -1.433333 51.353852
+node 113 type = standard -5.910153 -1.366667 53.019987
+node 114 type = standard -3.174787 -1.433333 51.586267
+node 115 type = standard -3.386460 -1.366667 53.240781
+node 116 type = standard -3.174787 1.433333 51.586267
+node 117 type = standard -3.386460 1.366667 53.240781
+node 118 type = standard -4.793566 0.000000 54.790708
+node 119 type = standard -3.598132 0.000000 54.895295
+node 120 type = standard -3.551416 0.000000 56.656067
+node 121 type = standard -6.678839 0.000000 56.834172
+node 122 type = standard -5.988999 0.000000 54.686122
+node 123 type = standard 0.000000 1.300000 0.000000
+node 124 type = standard 0.000000 -1.300000 0.000000
+node 125 type = standard 2.384008 1.300000 7.715342
+node 126 type = standard 2.384008 -1.300000 7.715342
+node 127 type = standard 4.377885 -1.300000 6.785582
+node 128 type = standard 4.377885 1.300000 6.785582
+node 129 type = standard 0.476802 1.300000 1.543068
+node 130 type = standard 0.953603 1.300000 3.086137
+node 131 type = standard 1.430405 1.300000 4.629205
+node 132 type = standard 1.907206 1.300000 6.172274
+node 133 type = standard 0.476802 -1.300000 1.543068
+node 134 type = standard 0.953603 -1.300000 3.086137
+node 135 type = standard 1.430405 -1.300000 4.629205
+node 136 type = standard 1.907206 -1.300000 6.172274
+node 137 type = standard 0.875577 -1.300000 1.357116
+node 138 type = standard 1.751154 -1.300000 2.714233
+node 139 type = standard 2.626731 -1.300000 4.071349
+node 140 type = standard 3.502308 -1.300000 5.428466
+node 141 type = standard 0.875577 1.300000 1.357116
+node 142 type = standard 1.751154 1.300000 2.714233
+node 143 type = standard 2.626731 1.300000 4.071349
+node 144 type = standard 3.502308 1.300000 5.428466
+node 149 type = standard 7.878045 1.300000 19.497344
+node 150 type = standard 7.878045 -1.300000 19.497344
+node 151 type = standard 9.871922 -1.300000 18.567583
+node 152 type = standard 9.871922 1.300000 18.567583
+node 153 type = standard 3.299680 1.300000 9.679009
+node 154 type = standard 4.215353 1.300000 11.642676
+node 155 type = standard 5.131026 1.300000 13.606343
+node 156 type = standard 6.046699 1.300000 15.570010
+node 157 type = standard 6.962372 1.300000 17.533677
+node 158 type = standard 3.299680 -1.300000 9.679009
+node 159 type = standard 4.215353 -1.300000 11.642676
+node 160 type = standard 5.131026 -1.300000 13.606343
+node 161 type = standard 6.046699 -1.300000 15.570010
+node 162 type = standard 6.962372 -1.300000 17.533677
+node 163 type = standard 5.293558 -1.300000 8.749249
+node 164 type = standard 6.209230 -1.300000 10.712916
+node 165 type = standard 7.124903 -1.300000 12.676583
+node 166 type = standard 8.040576 -1.300000 14.640250
+node 167 type = standard 8.956249 -1.300000 16.603917
+node 168 type = standard 5.293558 1.300000 8.749249
+node 169 type = standard 6.209230 1.300000 10.712916
+node 170 type = standard 7.124903 1.300000 12.676583
+node 171 type = standard 8.040576 1.300000 14.640250
+node 172 type = standard 8.956249 1.300000 16.603917
+node 177 type = standard 10.988075 1.300000 23.564002
+node 178 type = standard 10.988075 -1.300000 23.564002
+node 179 type = standard 8.914722 1.300000 20.852897
+node 180 type = standard 9.951398 1.300000 22.208450
+node 181 type = standard 8.914722 -1.300000 20.852897
+node 182 type = standard 9.951398 -1.300000 22.208450
+node 183 type = standard 10.243973 -1.300000 20.233056
+node 184 type = standard 10.616024 -1.300000 21.898529
+node 185 type = standard 10.243973 1.300000 20.233056
+node 186 type = standard 10.616024 1.300000 21.898529
+node 188 type = standard 2.482355 0.000000 42.923128
+node 190 type = standard 8.516126 0.000000 29.190189
+node 191 type = standard 10.988075 0.000000 23.564002
+node 194 type = standard 10.988075 0.000000 23.564002
+node 197 type = standard -6.678839 0.000000 26.834172
+node 198 type = standard -6.678839 0.000000 24.834172
+! =============================================================
+! ===========================Element===========================
+! Element of Body 1
+element n = 1 type = rigidlink ..
+nodec = 1 nodei = 3
+
+! Element of Body 2
+! Cross Section Beam
+element n = 2 type = bar material = 201 properties = 201 ..
+node1 = 4 node2 = 5
+element n = 3 type = bar material = 201 properties = 201 ..
+node1 = 6 node2 = 7
+element n = 4 type = bar material = 201 properties = 201 ..
+node1 = 7 node2 = 8
+element n = 5 type = bar material = 201 properties = 201 ..
+node1 = 8 node2 = 9
+element n = 6 type = bar material = 201 properties = 201 ..
+node1 = 9 node2 = 6
+! Main Beam
+element n = 7 type = bar material = 202 properties = 202 ..
+node1 = 4 node2 = 10
+element n = 8 type = bar material = 202 properties = 202 ..
+node1 = 10 node2 = 11
+element n = 9 type = bar material = 202 properties = 202 ..
+node1 = 11 node2 = 6
+element n = 10 type = bar material = 202 properties = 202 ..
+node1 = 5 node2 = 12
+element n = 11 type = bar material = 202 properties = 202 ..
+node1 = 12 node2 = 13
+element n = 12 type = bar material = 202 properties = 202 ..
+node1 = 13 node2 = 7
+element n = 13 type = bar material = 202 properties = 202 ..
+node1 = 5 node2 = 14
+element n = 14 type = bar material = 202 properties = 202 ..
+node1 = 14 node2 = 15
+element n = 15 type = bar material = 202 properties = 202 ..
+node1 = 15 node2 = 8
+element n = 16 type = bar material = 202 properties = 202 ..
+node1 = 4 node2 = 16
+element n = 17 type = bar material = 202 properties = 202 ..
+node1 = 16 node2 = 17
+element n = 18 type = bar material = 202 properties = 202 ..
+node1 = 17 node2 = 9
+! Sub Beam
+element n = 19 type = bar material = 203 properties = 203 ..
+node1 = 4 node2 = 12
+element n = 20 type = bar material = 203 properties = 203 ..
+node1 = 12 node2 = 11
+element n = 21 type = bar material = 203 properties = 203 ..
+node1 = 11 node2 = 7
+element n = 22 type = bar material = 203 properties = 203 ..
+node1 = 13 node2 = 14
+element n = 23 type = bar material = 203 properties = 203 ..
+node1 = 8 node2 = 13
+element n = 24 type = bar material = 203 properties = 203 ..
+node1 = 5 node2 = 16
+element n = 25 type = bar material = 203 properties = 203 ..
+node1 = 16 node2 = 15
+element n = 26 type = bar material = 203 properties = 203 ..
+node1 = 15 node2 = 9
+element n = 27 type = bar material = 203 properties = 203 ..
+node1 = 17 node2 = 10
+element n = 28 type = bar material = 203 properties = 203 ..
+node1 = 6 node2 = 17
+
+! Element of Body 3
+! Cross Section Beam
+element n = 29 type = bar material = 301 properties = 301 ..
+node1 = 6 node2 = 7
+element n = 30 type = bar material = 301 properties = 301 ..
+node1 = 7 node2 = 8
+element n = 31 type = bar material = 301 properties = 301 ..
+node1 = 8 node2 = 9
+element n = 32 type = bar material = 301 properties = 301 ..
+node1 = 9 node2 = 6
+element n = 33 type = bar material = 301 properties = 301 ..
+node1 = 22 node2 = 23
+element n = 34 type = bar material = 301 properties = 301 ..
+node1 = 23 node2 = 24
+element n = 35 type = bar material = 301 properties = 301 ..
+node1 = 24 node2 = 25
+element n = 36 type = bar material = 301 properties = 301 ..
+node1 = 25 node2 = 22
+! Main Beam
+element n = 37 type = bar material = 302 properties = 302 ..
+node1 = 6 node2 = 26
+element n = 38 type = bar material = 302 properties = 302 ..
+node1 = 26 node2 = 27
+element n = 39 type = bar material = 302 properties = 302 ..
+node1 = 27 node2 = 28
+element n = 40 type = bar material = 302 properties = 302 ..
+node1 = 28 node2 = 29
+element n = 41 type = bar material = 302 properties = 302 ..
+node1 = 29 node2 = 30
+element n = 42 type = bar material = 302 properties = 302 ..
+node1 = 30 node2 = 22
+element n = 43 type = bar material = 302 properties = 302 ..
+node1 = 7 node2 = 31
+element n = 44 type = bar material = 302 properties = 302 ..
+node1 = 31 node2 = 32
+element n = 45 type = bar material = 302 properties = 302 ..
+node1 = 32 node2 = 33
+element n = 46 type = bar material = 302 properties = 302 ..
+node1 = 33 node2 = 34
+element n = 47 type = bar material = 302 properties = 302 ..
+node1 = 34 node2 = 35
+element n = 48 type = bar material = 302 properties = 302 ..
+node1 = 35 node2 = 23
+element n = 49 type = bar material = 302 properties = 302 ..
+node1 = 8 node2 = 36
+element n = 50 type = bar material = 302 properties = 302 ..
+node1 = 36 node2 = 37
+element n = 51 type = bar material = 302 properties = 302 ..
+node1 = 37 node2 = 38
+element n = 52 type = bar material = 302 properties = 302 ..
+node1 = 38 node2 = 39
+element n = 53 type = bar material = 302 properties = 302 ..
+node1 = 39 node2 = 40
+element n = 54 type = bar material = 302 properties = 302 ..
+node1 = 40 node2 = 24
+element n = 55 type = bar material = 302 properties = 302 ..
+node1 = 9 node2 = 41
+element n = 56 type = bar material = 302 properties = 302 ..
+node1 = 41 node2 = 42
+element n = 57 type = bar material = 302 properties = 302 ..
+node1 = 42 node2 = 43
+element n = 58 type = bar material = 302 properties = 302 ..
+node1 = 43 node2 = 44
+element n = 59 type = bar material = 302 properties = 302 ..
+node1 = 44 node2 = 45
+element n = 60 type = bar material = 302 properties = 302 ..
+node1 = 45 node2 = 25
+! Sub Beam
+element n = 61 type = bar material = 303 properties = 303 ..
+node1 = 6 node2 = 31
+element n = 62 type = bar material = 303 properties = 303 ..
+node1 = 31 node2 = 27
+element n = 63 type = bar material = 303 properties = 303 ..
+node1 = 27 node2 = 33
+element n = 64 type = bar material = 303 properties = 303 ..
+node1 = 33 node2 = 29
+element n = 65 type = bar material = 303 properties = 303 ..
+node1 = 29 node2 = 35
+element n = 66 type = bar material = 303 properties = 303 ..
+node1 = 35 node2 = 22
+element n = 67 type = bar material = 303 properties = 303 ..
+node1 = 7 node2 = 36
+element n = 68 type = bar material = 303 properties = 303 ..
+node1 = 36 node2 = 32
+element n = 69 type = bar material = 303 properties = 303 ..
+node1 = 32 node2 = 38
+element n = 70 type = bar material = 303 properties = 303 ..
+node1 = 38 node2 = 34
+element n = 71 type = bar material = 303 properties = 303 ..
+node1 = 34 node2 = 40
+element n = 72 type = bar material = 303 properties = 303 ..
+node1 = 40 node2 = 23
+element n = 73 type = bar material = 303 properties = 303 ..
+node1 = 8 node2 = 41
+element n = 74 type = bar material = 303 properties = 303 ..
+node1 = 41 node2 = 37
+element n = 75 type = bar material = 303 properties = 303 ..
+node1 = 37 node2 = 43
+element n = 76 type = bar material = 303 properties = 303 ..
+node1 = 43 node2 = 39
+element n = 77 type = bar material = 303 properties = 303 ..
+node1 = 39 node2 = 45
+element n = 78 type = bar material = 303 properties = 303 ..
+node1 = 45 node2 = 24
+element n = 79 type = bar material = 303 properties = 303 ..
+node1 = 9 node2 = 26
+element n = 80 type = bar material = 303 properties = 303 ..
+node1 = 26 node2 = 42
+element n = 81 type = bar material = 303 properties = 303 ..
+node1 = 42 node2 = 28
+element n = 82 type = bar material = 303 properties = 303 ..
+node1 = 28 node2 = 44
+element n = 83 type = bar material = 303 properties = 303 ..
+node1 = 44 node2 = 30
+element n = 84 type = bar material = 303 properties = 303 ..
+node1 = 30 node2 = 25
+
+! Element of Body 4
+! Cross Section Beam
+element n = 85 type = bar material = 401 properties = 401 ..
+node1 = 22 node2 = 23
+element n = 86 type = bar material = 401 properties = 401 ..
+node1 = 23 node2 = 24
+element n = 87 type = bar material = 401 properties = 401 ..
+node1 = 24 node2 = 25
+element n = 88 type = bar material = 401 properties = 401 ..
+node1 = 25 node2 = 22
+element n = 89 type = bar material = 401 properties = 401 ..
+node1 = 50 node2 = 51
+element n = 90 type = bar material = 401 properties = 401 ..
+node1 = 51 node2 = 52
+element n = 91 type = bar material = 401 properties = 401 ..
+node1 = 52 node2 = 53
+element n = 92 type = bar material = 401 properties = 401 ..
+node1 = 53 node2 = 50
+! Main Beam
+element n = 93 type = bar material = 402 properties = 402 ..
+node1 = 22 node2 = 54
+element n = 94 type = bar material = 402 properties = 402 ..
+node1 = 54 node2 = 55
+element n = 95 type = bar material = 402 properties = 402 ..
+node1 = 55 node2 = 56
+element n = 96 type = bar material = 402 properties = 402 ..
+node1 = 56 node2 = 57
+element n = 97 type = bar material = 402 properties = 402 ..
+node1 = 57 node2 = 58
+element n = 98 type = bar material = 402 properties = 402 ..
+node1 = 58 node2 = 50
+element n = 99 type = bar material = 402 properties = 402 ..
+node1 = 23 node2 = 59
+element n = 100 type = bar material = 402 properties = 402 ..
+node1 = 59 node2 = 60
+element n = 101 type = bar material = 402 properties = 402 ..
+node1 = 60 node2 = 61
+element n = 102 type = bar material = 402 properties = 402 ..
+node1 = 61 node2 = 62
+element n = 103 type = bar material = 402 properties = 402 ..
+node1 = 62 node2 = 63
+element n = 104 type = bar material = 402 properties = 402 ..
+node1 = 63 node2 = 51
+element n = 105 type = bar material = 402 properties = 402 ..
+node1 = 24 node2 = 64
+element n = 106 type = bar material = 402 properties = 402 ..
+node1 = 64 node2 = 65
+element n = 107 type = bar material = 402 properties = 402 ..
+node1 = 65 node2 = 66
+element n = 108 type = bar material = 402 properties = 402 ..
+node1 = 66 node2 = 67
+element n = 109 type = bar material = 402 properties = 402 ..
+node1 = 67 node2 = 68
+element n = 110 type = bar material = 402 properties = 402 ..
+node1 = 68 node2 = 52
+element n = 111 type = bar material = 402 properties = 402 ..
+node1 = 25 node2 = 69
+element n = 112 type = bar material = 402 properties = 402 ..
+node1 = 69 node2 = 70
+element n = 113 type = bar material = 402 properties = 402 ..
+node1 = 70 node2 = 71
+element n = 114 type = bar material = 402 properties = 402 ..
+node1 = 71 node2 = 72
+element n = 115 type = bar material = 402 properties = 402 ..
+node1 = 72 node2 = 73
+element n = 116 type = bar material = 402 properties = 402 ..
+node1 = 73 node2 = 53
+! Sub Beam
+element n = 117 type = bar material = 403 properties = 403 ..
+node1 = 22 node2 = 59
+element n = 118 type = bar material = 403 properties = 403 ..
+node1 = 59 node2 = 55
+element n = 119 type = bar material = 403 properties = 403 ..
+node1 = 55 node2 = 61
+element n = 120 type = bar material = 403 properties = 403 ..
+node1 = 61 node2 = 57
+element n = 121 type = bar material = 403 properties = 403 ..
+node1 = 57 node2 = 63
+element n = 122 type = bar material = 403 properties = 403 ..
+node1 = 63 node2 = 50
+element n = 123 type = bar material = 403 properties = 403 ..
+node1 = 23 node2 = 64
+element n = 124 type = bar material = 403 properties = 403 ..
+node1 = 64 node2 = 60
+element n = 125 type = bar material = 403 properties = 403 ..
+node1 = 60 node2 = 66
+element n = 126 type = bar material = 403 properties = 403 ..
+node1 = 66 node2 = 62
+element n = 127 type = bar material = 403 properties = 403 ..
+node1 = 62 node2 = 68
+element n = 128 type = bar material = 403 properties = 403 ..
+node1 = 68 node2 = 51
+element n = 129 type = bar material = 403 properties = 403 ..
+node1 = 24 node2 = 69
+element n = 130 type = bar material = 403 properties = 403 ..
+node1 = 69 node2 = 65
+element n = 131 type = bar material = 403 properties = 403 ..
+node1 = 65 node2 = 71
+element n = 132 type = bar material = 403 properties = 403 ..
+node1 = 71 node2 = 67
+element n = 133 type = bar material = 403 properties = 403 ..
+node1 = 67 node2 = 73
+element n = 134 type = bar material = 403 properties = 403 ..
+node1 = 73 node2 = 52
+element n = 135 type = bar material = 403 properties = 403 ..
+node1 = 25 node2 = 54
+element n = 136 type = bar material = 403 properties = 403 ..
+node1 = 54 node2 = 70
+element n = 137 type = bar material = 403 properties = 403 ..
+node1 = 70 node2 = 56
+element n = 138 type = bar material = 403 properties = 403 ..
+node1 = 56 node2 = 72
+element n = 139 type = bar material = 403 properties = 403 ..
+node1 = 72 node2 = 58
+element n = 140 type = bar material = 403 properties = 403 ..
+node1 = 58 node2 = 53
+
+! Element of Body 5
+! Cross Section Beam
+element n = 141 type = bar material = 501 properties = 501 ..
+node1 = 50 node2 = 51
+element n = 142 type = bar material = 501 properties = 501 ..
+node1 = 51 node2 = 52
+element n = 143 type = bar material = 501 properties = 501 ..
+node1 = 52 node2 = 53
+element n = 144 type = bar material = 501 properties = 501 ..
+node1 = 53 node2 = 50
+element n = 145 type = bar material = 501 properties = 501 ..
+node1 = 78 node2 = 79
+element n = 146 type = bar material = 501 properties = 501 ..
+node1 = 79 node2 = 80
+element n = 147 type = bar material = 501 properties = 501 ..
+node1 = 80 node2 = 81
+element n = 148 type = bar material = 501 properties = 501 ..
+node1 = 81 node2 = 78
+! Main Beam
+element n = 149 type = bar material = 502 properties = 502 ..
+node1 = 50 node2 = 82
+element n = 150 type = bar material = 502 properties = 502 ..
+node1 = 82 node2 = 83
+element n = 151 type = bar material = 502 properties = 502 ..
+node1 = 83 node2 = 84
+element n = 152 type = bar material = 502 properties = 502 ..
+node1 = 84 node2 = 85
+element n = 153 type = bar material = 502 properties = 502 ..
+node1 = 85 node2 = 86
+element n = 154 type = bar material = 502 properties = 502 ..
+node1 = 86 node2 = 78
+element n = 155 type = bar material = 502 properties = 502 ..
+node1 = 51 node2 = 87
+element n = 156 type = bar material = 502 properties = 502 ..
+node1 = 87 node2 = 88
+element n = 157 type = bar material = 502 properties = 502 ..
+node1 = 88 node2 = 89
+element n = 158 type = bar material = 502 properties = 502 ..
+node1 = 89 node2 = 90
+element n = 159 type = bar material = 502 properties = 502 ..
+node1 = 90 node2 = 91
+element n = 160 type = bar material = 502 properties = 502 ..
+node1 = 91 node2 = 79
+element n = 161 type = bar material = 502 properties = 502 ..
+node1 = 52 node2 = 92
+element n = 162 type = bar material = 502 properties = 502 ..
+node1 = 92 node2 = 93
+element n = 163 type = bar material = 502 properties = 502 ..
+node1 = 93 node2 = 94
+element n = 164 type = bar material = 502 properties = 502 ..
+node1 = 94 node2 = 95
+element n = 165 type = bar material = 502 properties = 502 ..
+node1 = 95 node2 = 96
+element n = 166 type = bar material = 502 properties = 502 ..
+node1 = 96 node2 = 80
+element n = 167 type = bar material = 502 properties = 502 ..
+node1 = 53 node2 = 97
+element n = 168 type = bar material = 502 properties = 502 ..
+node1 = 97 node2 = 98
+element n = 169 type = bar material = 502 properties = 502 ..
+node1 = 98 node2 = 99
+element n = 170 type = bar material = 502 properties = 502 ..
+node1 = 99 node2 = 100
+element n = 171 type = bar material = 502 properties = 502 ..
+node1 = 100 node2 = 101
+element n = 172 type = bar material = 502 properties = 502 ..
+node1 = 101 node2 = 81
+! Sub Beam
+element n = 173 type = bar material = 503 properties = 503 ..
+node1 = 50 node2 = 87
+element n = 174 type = bar material = 503 properties = 503 ..
+node1 = 87 node2 = 83
+element n = 175 type = bar material = 503 properties = 503 ..
+node1 = 83 node2 = 89
+element n = 176 type = bar material = 503 properties = 503 ..
+node1 = 89 node2 = 85
+element n = 177 type = bar material = 503 properties = 503 ..
+node1 = 85 node2 = 91
+element n = 178 type = bar material = 503 properties = 503 ..
+node1 = 91 node2 = 78
+element n = 179 type = bar material = 503 properties = 503 ..
+node1 = 51 node2 = 92
+element n = 180 type = bar material = 503 properties = 503 ..
+node1 = 92 node2 = 88
+element n = 181 type = bar material = 503 properties = 503 ..
+node1 = 88 node2 = 94
+element n = 182 type = bar material = 503 properties = 503 ..
+node1 = 94 node2 = 90
+element n = 183 type = bar material = 503 properties = 503 ..
+node1 = 90 node2 = 96
+element n = 184 type = bar material = 503 properties = 503 ..
+node1 = 96 node2 = 79
+element n = 185 type = bar material = 503 properties = 503 ..
+node1 = 52 node2 = 97
+element n = 186 type = bar material = 503 properties = 503 ..
+node1 = 97 node2 = 93
+element n = 187 type = bar material = 503 properties = 503 ..
+node1 = 93 node2 = 99
+element n = 188 type = bar material = 503 properties = 503 ..
+node1 = 99 node2 = 95
+element n = 189 type = bar material = 503 properties = 503 ..
+node1 = 95 node2 = 101
+element n = 190 type = bar material = 503 properties = 503 ..
+node1 = 101 node2 = 80
+element n = 191 type = bar material = 503 properties = 503 ..
+node1 = 53 node2 = 82
+element n = 192 type = bar material = 503 properties = 503 ..
+node1 = 82 node2 = 98
+element n = 193 type = bar material = 503 properties = 503 ..
+node1 = 98 node2 = 84
+element n = 194 type = bar material = 503 properties = 503 ..
+node1 = 84 node2 = 100
+element n = 195 type = bar material = 503 properties = 503 ..
+node1 = 100 node2 = 86
+element n = 196 type = bar material = 503 properties = 503 ..
+node1 = 86 node2 = 81
+
+! Element of Body 6
+! Cross Section Beam
+element n = 197 type = bar material = 601 properties = 601 ..
+node1 = 78 node2 = 79
+element n = 198 type = bar material = 601 properties = 601 ..
+node1 = 79 node2 = 80
+element n = 199 type = bar material = 601 properties = 601 ..
+node1 = 80 node2 = 81
+element n = 200 type = bar material = 601 properties = 601 ..
+node1 = 81 node2 = 78
+element n = 201 type = bar material = 601 properties = 601 ..
+node1 = 106 node2 = 107
+element n = 202 type = bar material = 601 properties = 601 ..
+node1 = 107 node2 = 108
+element n = 203 type = bar material = 601 properties = 601 ..
+node1 = 108 node2 = 109
+element n = 204 type = bar material = 601 properties = 601 ..
+node1 = 109 node2 = 106
+! Main Beam
+element n = 205 type = bar material = 602 properties = 602 ..
+node1 = 78 node2 = 110
+element n = 206 type = bar material = 602 properties = 602 ..
+node1 = 110 node2 = 111
+element n = 207 type = bar material = 602 properties = 602 ..
+node1 = 111 node2 = 106
+element n = 208 type = bar material = 602 properties = 602 ..
+node1 = 79 node2 = 112
+element n = 209 type = bar material = 602 properties = 602 ..
+node1 = 112 node2 = 113
+element n = 210 type = bar material = 602 properties = 602 ..
+node1 = 113 node2 = 107
+element n = 211 type = bar material = 602 properties = 602 ..
+node1 = 80 node2 = 114
+element n = 212 type = bar material = 602 properties = 602 ..
+node1 = 114 node2 = 115
+element n = 213 type = bar material = 602 properties = 602 ..
+node1 = 115 node2 = 108
+element n = 214 type = bar material = 602 properties = 602 ..
+node1 = 81 node2 = 116
+element n = 215 type = bar material = 602 properties = 602 ..
+node1 = 116 node2 = 117
+element n = 216 type = bar material = 602 properties = 602 ..
+node1 = 117 node2 = 109
+! Sub Beam
+element n = 217 type = bar material = 603 properties = 603 ..
+node1 = 78 node2 = 112
+element n = 218 type = bar material = 603 properties = 603 ..
+node1 = 112 node2 = 111
+element n = 219 type = bar material = 603 properties = 603 ..
+node1 = 111 node2 = 107
+element n = 220 type = bar material = 603 properties = 603 ..
+node1 = 79 node2 = 114
+element n = 221 type = bar material = 603 properties = 603 ..
+node1 = 114 node2 = 113
+element n = 222 type = bar material = 603 properties = 603 ..
+node1 = 113 node2 = 108
+element n = 223 type = bar material = 603 properties = 603 ..
+node1 = 80 node2 = 116
+element n = 224 type = bar material = 603 properties = 603 ..
+node1 = 116 node2 = 115
+element n = 225 type = bar material = 603 properties = 603 ..
+node1 = 115 node2 = 109
+element n = 226 type = bar material = 603 properties = 603 ..
+node1 = 81 node2 = 110
+element n = 227 type = bar material = 603 properties = 603 ..
+node1 = 110 node2 = 117
+element n = 228 type = bar material = 603 properties = 603 ..
+node1 = 117 node2 = 106
+
+! Element of Body 7
+element n = 229 type = rigidlink ..
+nodec = 118 nodei = 119
+element n = 230 type = rigidlink ..
+nodec = 119 nodei = 120
+element n = 231 type = rigidlink ..
+nodec = 120 nodei = 121
+element n = 232 type = rigidlink ..
+nodec = 121 nodei = 122
+element n = 233 type = rigidlink ..
+nodec = 122 nodei = 118
+
+! Element of Body 8
+! Cross Section Beam
+element n = 234 type = bar material = 801 properties = 801 ..
+node1 = 123 node2 = 124
+element n = 235 type = bar material = 801 properties = 801 ..
+node1 = 125 node2 = 126
+element n = 236 type = bar material = 801 properties = 801 ..
+node1 = 126 node2 = 127
+element n = 237 type = bar material = 801 properties = 801 ..
+node1 = 127 node2 = 128
+element n = 238 type = bar material = 801 properties = 801 ..
+node1 = 128 node2 = 125
+! Main Beam
+element n = 239 type = bar material = 802 properties = 802 ..
+node1 = 123 node2 = 129
+element n = 240 type = bar material = 802 properties = 802 ..
+node1 = 129 node2 = 130
+element n = 241 type = bar material = 802 properties = 802 ..
+node1 = 130 node2 = 131
+element n = 242 type = bar material = 802 properties = 802 ..
+node1 = 131 node2 = 132
+element n = 243 type = bar material = 802 properties = 802 ..
+node1 = 132 node2 = 125
+element n = 244 type = bar material = 802 properties = 802 ..
+node1 = 124 node2 = 133
+element n = 245 type = bar material = 802 properties = 802 ..
+node1 = 133 node2 = 134
+element n = 246 type = bar material = 802 properties = 802 ..
+node1 = 134 node2 = 135
+element n = 247 type = bar material = 802 properties = 802 ..
+node1 = 135 node2 = 136
+element n = 248 type = bar material = 802 properties = 802 ..
+node1 = 136 node2 = 126
+element n = 249 type = bar material = 802 properties = 802 ..
+node1 = 124 node2 = 137
+element n = 250 type = bar material = 802 properties = 802 ..
+node1 = 137 node2 = 138
+element n = 251 type = bar material = 802 properties = 802 ..
+node1 = 138 node2 = 139
+element n = 252 type = bar material = 802 properties = 802 ..
+node1 = 139 node2 = 140
+element n = 253 type = bar material = 802 properties = 802 ..
+node1 = 140 node2 = 127
+element n = 254 type = bar material = 802 properties = 802 ..
+node1 = 123 node2 = 141
+element n = 255 type = bar material = 802 properties = 802 ..
+node1 = 141 node2 = 142
+element n = 256 type = bar material = 802 properties = 802 ..
+node1 = 142 node2 = 143
+element n = 257 type = bar material = 802 properties = 802 ..
+node1 = 143 node2 = 144
+element n = 258 type = bar material = 802 properties = 802 ..
+node1 = 144 node2 = 128
+! Sub Beam
+element n = 259 type = bar material = 803 properties = 803 ..
+node1 = 123 node2 = 133
+element n = 260 type = bar material = 803 properties = 803 ..
+node1 = 133 node2 = 130
+element n = 261 type = bar material = 803 properties = 803 ..
+node1 = 130 node2 = 135
+element n = 262 type = bar material = 803 properties = 803 ..
+node1 = 135 node2 = 132
+element n = 263 type = bar material = 803 properties = 803 ..
+node1 = 132 node2 = 126
+element n = 264 type = bar material = 803 properties = 803 ..
+node1 = 134 node2 = 137
+element n = 265 type = bar material = 803 properties = 803 ..
+node1 = 139 node2 = 134
+element n = 266 type = bar material = 803 properties = 803 ..
+node1 = 136 node2 = 139
+element n = 267 type = bar material = 803 properties = 803 ..
+node1 = 127 node2 = 136
+element n = 268 type = bar material = 803 properties = 803 ..
+node1 = 124 node2 = 141
+element n = 269 type = bar material = 803 properties = 803 ..
+node1 = 141 node2 = 138
+element n = 270 type = bar material = 803 properties = 803 ..
+node1 = 138 node2 = 143
+element n = 271 type = bar material = 803 properties = 803 ..
+node1 = 143 node2 = 140
+element n = 272 type = bar material = 803 properties = 803 ..
+node1 = 140 node2 = 128
+element n = 273 type = bar material = 803 properties = 803 ..
+node1 = 142 node2 = 129
+element n = 274 type = bar material = 803 properties = 803 ..
+node1 = 131 node2 = 142
+element n = 275 type = bar material = 803 properties = 803 ..
+node1 = 144 node2 = 131
+element n = 276 type = bar material = 803 properties = 803 ..
+node1 = 125 node2 = 144
+
+! Element of Body 9
+! Cross Section Beam
+element n = 277 type = bar material = 901 properties = 901 ..
+node1 = 125 node2 = 126
+element n = 278 type = bar material = 901 properties = 901 ..
+node1 = 126 node2 = 127
+element n = 279 type = bar material = 901 properties = 901 ..
+node1 = 127 node2 = 128
+element n = 280 type = bar material = 901 properties = 901 ..
+node1 = 128 node2 = 125
+element n = 281 type = bar material = 901 properties = 901 ..
+node1 = 149 node2 = 150
+element n = 282 type = bar material = 901 properties = 901 ..
+node1 = 150 node2 = 151
+element n = 283 type = bar material = 901 properties = 901 ..
+node1 = 151 node2 = 152
+element n = 284 type = bar material = 901 properties = 901 ..
+node1 = 152 node2 = 149
+! Main Beam
+element n = 285 type = bar material = 902 properties = 902 ..
+node1 = 125 node2 = 153
+element n = 286 type = bar material = 902 properties = 902 ..
+node1 = 153 node2 = 154
+element n = 287 type = bar material = 902 properties = 902 ..
+node1 = 154 node2 = 155
+element n = 288 type = bar material = 902 properties = 902 ..
+node1 = 155 node2 = 156
+element n = 289 type = bar material = 902 properties = 902 ..
+node1 = 156 node2 = 157
+element n = 290 type = bar material = 902 properties = 902 ..
+node1 = 157 node2 = 149
+element n = 291 type = bar material = 902 properties = 902 ..
+node1 = 126 node2 = 158
+element n = 292 type = bar material = 902 properties = 902 ..
+node1 = 158 node2 = 159
+element n = 293 type = bar material = 902 properties = 902 ..
+node1 = 159 node2 = 160
+element n = 294 type = bar material = 902 properties = 902 ..
+node1 = 160 node2 = 161
+element n = 295 type = bar material = 902 properties = 902 ..
+node1 = 161 node2 = 162
+element n = 296 type = bar material = 902 properties = 902 ..
+node1 = 162 node2 = 150
+element n = 297 type = bar material = 902 properties = 902 ..
+node1 = 127 node2 = 163
+element n = 298 type = bar material = 902 properties = 902 ..
+node1 = 163 node2 = 164
+element n = 299 type = bar material = 902 properties = 902 ..
+node1 = 164 node2 = 165
+element n = 300 type = bar material = 902 properties = 902 ..
+node1 = 165 node2 = 166
+element n = 301 type = bar material = 902 properties = 902 ..
+node1 = 166 node2 = 167
+element n = 302 type = bar material = 902 properties = 902 ..
+node1 = 167 node2 = 151
+element n = 303 type = bar material = 902 properties = 902 ..
+node1 = 128 node2 = 168
+element n = 304 type = bar material = 902 properties = 902 ..
+node1 = 168 node2 = 169
+element n = 305 type = bar material = 902 properties = 902 ..
+node1 = 169 node2 = 170
+element n = 306 type = bar material = 902 properties = 902 ..
+node1 = 170 node2 = 171
+element n = 307 type = bar material = 902 properties = 902 ..
+node1 = 171 node2 = 172
+element n = 308 type = bar material = 902 properties = 902 ..
+node1 = 172 node2 = 152
+! Sub Beam
+element n = 309 type = bar material = 903 properties = 903 ..
+node1 = 125 node2 = 158
+element n = 310 type = bar material = 903 properties = 903 ..
+node1 = 158 node2 = 154
+element n = 311 type = bar material = 903 properties = 903 ..
+node1 = 154 node2 = 160
+element n = 312 type = bar material = 903 properties = 903 ..
+node1 = 160 node2 = 156
+element n = 313 type = bar material = 903 properties = 903 ..
+node1 = 156 node2 = 162
+element n = 314 type = bar material = 903 properties = 903 ..
+node1 = 162 node2 = 149
+element n = 315 type = bar material = 903 properties = 903 ..
+node1 = 126 node2 = 163
+element n = 316 type = bar material = 903 properties = 903 ..
+node1 = 163 node2 = 159
+element n = 317 type = bar material = 903 properties = 903 ..
+node1 = 159 node2 = 165
+element n = 318 type = bar material = 903 properties = 903 ..
+node1 = 165 node2 = 161
+element n = 319 type = bar material = 903 properties = 903 ..
+node1 = 161 node2 = 167
+element n = 320 type = bar material = 903 properties = 903 ..
+node1 = 167 node2 = 150
+element n = 321 type = bar material = 903 properties = 903 ..
+node1 = 127 node2 = 168
+element n = 322 type = bar material = 903 properties = 903 ..
+node1 = 168 node2 = 164
+element n = 323 type = bar material = 903 properties = 903 ..
+node1 = 164 node2 = 170
+element n = 324 type = bar material = 903 properties = 903 ..
+node1 = 170 node2 = 166
+element n = 325 type = bar material = 903 properties = 903 ..
+node1 = 166 node2 = 172
+element n = 326 type = bar material = 903 properties = 903 ..
+node1 = 172 node2 = 151
+element n = 327 type = bar material = 903 properties = 903 ..
+node1 = 128 node2 = 153
+element n = 328 type = bar material = 903 properties = 903 ..
+node1 = 153 node2 = 169
+element n = 329 type = bar material = 903 properties = 903 ..
+node1 = 169 node2 = 155
+element n = 330 type = bar material = 903 properties = 903 ..
+node1 = 155 node2 = 171
+element n = 331 type = bar material = 903 properties = 903 ..
+node1 = 171 node2 = 157
+element n = 332 type = bar material = 903 properties = 903 ..
+node1 = 157 node2 = 152
+
+! Element of Body 10
+! Cross Section Beam
+element n = 333 type = bar material = 1001 properties = 1001 ..
+node1 = 149 node2 = 150
+element n = 334 type = bar material = 1001 properties = 1001 ..
+node1 = 150 node2 = 151
+element n = 335 type = bar material = 1001 properties = 1001 ..
+node1 = 151 node2 = 152
+element n = 336 type = bar material = 1001 properties = 1001 ..
+node1 = 152 node2 = 149
+element n = 337 type = bar material = 1001 properties = 1001 ..
+node1 = 177 node2 = 178
+! Main Beam
+element n = 338 type = bar material = 1002 properties = 1002 ..
+node1 = 149 node2 = 179
+element n = 339 type = bar material = 1002 properties = 1002 ..
+node1 = 179 node2 = 180
+element n = 340 type = bar material = 1002 properties = 1002 ..
+node1 = 180 node2 = 177
+element n = 341 type = bar material = 1002 properties = 1002 ..
+node1 = 150 node2 = 181
+element n = 342 type = bar material = 1002 properties = 1002 ..
+node1 = 181 node2 = 182
+element n = 343 type = bar material = 1002 properties = 1002 ..
+node1 = 182 node2 = 178
+element n = 344 type = bar material = 1002 properties = 1002 ..
+node1 = 151 node2 = 183
+element n = 345 type = bar material = 1002 properties = 1002 ..
+node1 = 183 node2 = 184
+element n = 346 type = bar material = 1002 properties = 1002 ..
+node1 = 184 node2 = 178
+element n = 347 type = bar material = 1002 properties = 1002 ..
+node1 = 152 node2 = 185
+element n = 348 type = bar material = 1002 properties = 1002 ..
+node1 = 185 node2 = 186
+element n = 349 type = bar material = 1002 properties = 1002 ..
+node1 = 186 node2 = 177
+! Sub Beam
+element n = 350 type = bar material = 1003 properties = 1003 ..
+node1 = 149 node2 = 181
+element n = 351 type = bar material = 1003 properties = 1003 ..
+node1 = 181 node2 = 180
+element n = 352 type = bar material = 1003 properties = 1003 ..
+node1 = 180 node2 = 178
+element n = 353 type = bar material = 1003 properties = 1003 ..
+node1 = 150 node2 = 183
+element n = 354 type = bar material = 1003 properties = 1003 ..
+node1 = 183 node2 = 182
+element n = 355 type = bar material = 1003 properties = 1003 ..
+node1 = 151 node2 = 185
+element n = 356 type = bar material = 1003 properties = 1003 ..
+node1 = 185 node2 = 184
+element n = 357 type = bar material = 1003 properties = 1003 ..
+node1 = 184 node2 = 177
+element n = 358 type = bar material = 1003 properties = 1003 ..
+node1 = 152 node2 = 179
+element n = 359 type = bar material = 1003 properties = 1003 ..
+node1 = 179 node2 = 186
+
+! Element of Body 11
+element n = 360 type = truss material = 1100 properties = 1100 ..
+node1 = 120 node2 = 188
+
+! Element of Body 12
+element n = 361 type = truss material = 1200 properties = 1200 ..
+node1 = 188 node2 = 190
+
+! Element of Body 13
+element n = 362 type = cable material = 1300 properties = 1300 ..
+node1 = 191 node2 = 190
+
+! Element of Body 14
+element n = 363 type = cable material = 1400 properties = 1400 ..
+node1 = 3 node2 = 194
+
+! Element of Body 15
+element n = 364 type = cable material = 1500 properties = 1500 ..
+node1 = 121 node2 = 197
+
+! Element of Body 16
+element n = 365 type = rigidlink ..
+nodec = 197 nodei = 198
+
+! =============================================================
+! ====================Additional Rigid Link====================
+! Constraint Number 2
+element n = 366 type = rigidlink ..
+nodec = 1 nodei = 4
+element n = 367 type = rigidlink ..
+nodec = 1 nodei = 5
+
+! Constraint Number 6
+element n = 368 type = rigidlink ..
+nodec = 118 nodei = 106
+element n = 369 type = rigidlink ..
+nodec = 118 nodei = 107
+element n = 370 type = rigidlink ..
+nodec = 118 nodei = 108
+element n = 371 type = rigidlink ..
+nodec = 118 nodei = 109
+
+! Constraint Number 8
+element n = 372 type = rigidlink ..
+nodec = 1 nodei = 123
+element n = 373 type = rigidlink ..
+nodec = 1 nodei = 124
+
+! Constraint Number 10
+element n = 376 type = rigidlink ..
+nodec = 194 nodei = 177
+element n = 377 type = rigidlink ..
+nodec = 194 nodei = 178
+
+! Constraint Number 14
+element n = 374 type = rigidlink ..
+nodec = 177 nodei = 191
+element n = 375 type = rigidlink ..
+nodec = 178 nodei = 191
+
+! =============================================================
+! =========================Properties==========================
+! Properties of Body 1
+
+! Properties of Body 2
+properties n = 201 type = bar-section pipe 0.200000 0.000000 0.000000 0.020000 0.000000 0.000000
+properties n = 202 type = bar-section pipe 0.200000 0.000000 0.000000 0.020000 0.000000 0.000000
+properties n = 203 type = bar-section pipe 0.100000 0.000000 0.000000 0.010000 0.000000 0.000000
+
+! Properties of Body 3
+properties n = 301 type = bar-section pipe 0.200000 0.000000 0.000000 0.020000 0.000000 0.000000
+properties n = 302 type = bar-section pipe 0.200000 0.000000 0.000000 0.020000 0.000000 0.000000
+properties n = 303 type = bar-section pipe 0.100000 0.000000 0.000000 0.010000 0.000000 0.000000
+
+! Properties of Body 4
+properties n = 401 type = bar-section pipe 0.200000 0.000000 0.000000 0.020000 0.000000 0.000000
+properties n = 402 type = bar-section pipe 0.200000 0.000000 0.000000 0.020000 0.000000 0.000000
+properties n = 403 type = bar-section pipe 0.100000 0.000000 0.000000 0.010000 0.000000 0.000000
+
+! Properties of Body 5
+properties n = 501 type = bar-section pipe 0.200000 0.000000 0.000000 0.020000 0.000000 0.000000
+properties n = 502 type = bar-section pipe 0.200000 0.000000 0.000000 0.020000 0.000000 0.000000
+properties n = 503 type = bar-section pipe 0.100000 0.000000 0.000000 0.010000 0.000000 0.000000
+
+! Properties of Body 6
+properties n = 601 type = bar-section pipe 0.200000 0.000000 0.000000 0.020000 0.000000 0.000000
+properties n = 602 type = bar-section pipe 0.200000 0.000000 0.000000 0.020000 0.000000 0.000000
+properties n = 603 type = bar-section pipe 0.100000 0.000000 0.000000 0.010000 0.000000 0.000000
+
+! Properties of Body 7
+
+! Properties of Body 8
+properties n = 801 type = bar-section pipe 0.200000 0.000000 0.000000 0.020000 0.000000 0.000000
+properties n = 802 type = bar-section pipe 0.200000 0.000000 0.000000 0.020000 0.000000 0.000000
+properties n = 803 type = bar-section pipe 0.100000 0.000000 0.000000 0.010000 0.000000 0.000000
+
+! Properties of Body 9
+properties n = 901 type = bar-section pipe 0.200000 0.000000 0.000000 0.020000 0.000000 0.000000
+properties n = 902 type = bar-section pipe 0.200000 0.000000 0.000000 0.020000 0.000000 0.000000
+properties n = 903 type = bar-section pipe 0.100000 0.000000 0.000000 0.010000 0.000000 0.000000
+
+! Properties of Body 10
+properties n = 1001 type = bar-section pipe 0.200000 0.000000 0.000000 0.020000 0.000000 0.000000
+properties n = 1002 type = bar-section pipe 0.200000 0.000000 0.000000 0.020000 0.000000 0.000000
+properties n = 1003 type = bar-section pipe 0.100000 0.000000 0.000000 0.010000 0.000000 0.000000
+
+! Properties of Body 11
+properties n = 1100 type = truss area = 0.007854
+
+! Properties of Body 12
+properties n = 1200 type = truss area = 0.007854
+
+! Properties of Body 13
+properties n = 1300 type = cable area = 0.007854
+
+! Properties of Body 14
+properties n = 1400 type = cable area = 0.007854
+
+! Properties of Body 15
+properties n = 1500 type = cable area = 0.007854
+
+! Properties of Body 16
+
+! =============================================================
+! ==========================Material===========================
+! Material of Body 1
+
+! Material of Body 2
+material n = 201 type = elastic density = 7800.000000 E = 206000000000.000000
+material n = 202 type = elastic density = 7800.000000 E = 206000000000.000000
+material n = 203 type = elastic density = 7800.000000 E = 206000000000.000000
+
+! Material of Body 3
+material n = 301 type = elastic density = 7800.000000 E = 206000000000.000000
+material n = 302 type = elastic density = 7800.000000 E = 206000000000.000000
+material n = 303 type = elastic density = 7800.000000 E = 206000000000.000000
+
+! Material of Body 4
+material n = 401 type = elastic density = 7800.000000 E = 206000000000.000000
+material n = 402 type = elastic density = 7800.000000 E = 206000000000.000000
+material n = 403 type = elastic density = 7800.000000 E = 206000000000.000000
+
+! Material of Body 5
+material n = 501 type = elastic density = 7800.000000 E = 206000000000.000000
+material n = 502 type = elastic density = 7800.000000 E = 206000000000.000000
+material n = 503 type = elastic density = 7800.000000 E = 206000000000.000000
+
+! Material of Body 6
+material n = 601 type = elastic density = 7800.000000 E = 206000000000.000000
+material n = 602 type = elastic density = 7800.000000 E = 206000000000.000000
+material n = 603 type = elastic density = 7800.000000 E = 206000000000.000000
+
+! Material of Body 7
+
+! Material of Body 8
+material n = 801 type = elastic density = 7800.000000 E = 206000000000.000000
+material n = 802 type = elastic density = 7800.000000 E = 206000000000.000000
+material n = 803 type = elastic density = 7800.000000 E = 206000000000.000000
+
+! Material of Body 9
+material n = 901 type = elastic density = 7800.000000 E = 206000000000.000000
+material n = 902 type = elastic density = 7800.000000 E = 206000000000.000000
+material n = 903 type = elastic density = 7800.000000 E = 206000000000.000000
+
+! Material of Body 10
+material n = 1001 type = elastic density = 7800.000000 E = 206000000000.000000
+material n = 1002 type = elastic density = 7800.000000 E = 206000000000.000000
+material n = 1003 type = elastic density = 7800.000000 E = 206000000000.000000
+
+! Material of Body 11
+material n = 1100 type = elastic density = 7800.000000 E = 206000000000.000000
+
+! Material of Body 12
+material n = 1200 type = elastic density = 7800.000000 E = 206000000000.000000
+
+! Material of Body 13
+material n = 1300 type = elastic density = 7800.000000 E = 206000000000.000000
+
+! Material of Body 14
+material n = 1400 type = elastic density = 7800.000000 E = 206000000000.000000
+
+! Material of Body 15
+material n = 1500 type = elastic density = 7800.000000 E = 206000000000.000000
+
+! Material of Body 16
+
+! =============================================================

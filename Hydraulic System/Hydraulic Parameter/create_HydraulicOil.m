@@ -1,0 +1,9 @@
+function HydraulicOilParameter = create_HydraulicOil(...
+	HydraulicElementParameterTableRaw,HydraulicElementNr,ParameterStartPosition)
+%%
+HydraulicOilParameter.rho = HydraulicElementParameterTableRaw{...
+	ParameterStartPosition+1,HydraulicElementNr+3};
+HydraulicOilParameter.E = HydraulicElementParameterTableRaw{...
+	ParameterStartPosition+2,HydraulicElementNr+3};
+
+end

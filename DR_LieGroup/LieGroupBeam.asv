@@ -1,0 +1,140 @@
+%%计算全局坐标系下HA，HB
+%%进而计算the relative configuration vector d
+%%根据d与d0求解当前应变
+%%根据动力学方程利用ODE（此处需采用广义alpha法）求解局部坐标下的vA，vB
+%%根据局部坐标系下的v更新全局坐标系下的H(附录B。2/B。6)
+
+
+clc;clear;
+close all;
+%% Change Working Dictionary
+Welcome_to_Programm;
+% Configure Working Directory
+FullPathOfProject = Configure_WorkingDirectory;
+%% Load Sub-Module
+Load_SubModule(FullPathOfProject);
+%% Load Parameter
+ExcelFileName = ...
+	'Cubic Spline Beam Pendulum - 1 Segments';
+ExcelFileDir = [...
+	'Parameter File\Pendulum Test\Cubic Spline Beam Pendulum test'];
+[ModelParameter,SolverParameter] = ...
+	Set_AllParameter_from_ExcelFile(ExcelFileName,ExcelFileDir);
+%% 1. 计算全局坐标系下HA，HB
+BodyElementParameter = ModelParameter.BodyElementParameter;
+Frame_Joint_Parameter = ModelParameter.Frame_Joint_Parameter;
+Joint_Parameter = ModelParameter.Joint_Parameter;
+ConstraintParameter = ModelParameter.ConstraintParameter;
+NodalForceParameter = ModelParameter.NodalForceParameter;
+DriveParameter = ModelParameter.DriveParameter;
+
+BodyQuantity = numel(BodyElementParameter);
+% 杆件的属性
+    g = ModelParameter.g;
+    gext = %extern Force
+
+for BodyNr = 1:BodyQuantity
+
+    rho = ModelParameter.BodyElementParameter{BodyNr}.rho;
+    L  = ModelParameter.BodyElementParameter{BodyNr}.L;
+    ri  = ModelParameter.BodyElementParameter{BodyNr}.ri;
+    ra  = ModelParameter.BodyElementParameter{BodyNr}.ra;
+    m  = ModelParameter.BodyElementParameter{BodyNr}.m;
+    A  = ModelParameter.BodyElementParameter{BodyNr}.A;
+    Iy = ModelParameter.BodyElementParameter{BodyNr}.Iy;
+    Iz = ModelParameter.BodyElementParameter{BodyNr}.Iz;
+    J = Iy + Iz;
+    E = ModelParameter.BodyElementParameter{BodyNr}.E;
+    G = ModelParameter.BodyElementParameter{BodyNr}.G;
+    theta_B_0 = [1/2*m*(ra^2-ri^2),0,0;0,1/3*m*L^2,0;0,0,1/3*m*L^2];
+    r_B_0C = [L/2;0;0];
+end
+
+
+
+%% time span for dynamic ODE
+t_start = SolverParameter.ODE_Solver.t_start;
+t_end = SolverParameter.ODE_Solver.t_end;
+tspan = [t_start;t_end];
+%% Load Existing Initial State
+exist_InitialState = false;
+InitialStateFileName = [...
+	'Result\Lattice Boom Crane\Super Truss Element\', ...
+	'Lattice Boom Crane Static Tol=0.01 MaxStep=0.02\Result.mat'];
+ModelParameter.InitialState = ...
+	Load_Existing_InitialState(exist_InitialState, ...
+	InitialStateFileName,ModelParameter);
+%% plot Initial State
+do_plot_InitialState = true;
+InitalStateAxes = plot_InitialState(do_plot_InitialState, ...
+	ModelParameter,SolverParameter);
+
+
+
+%%设置坐标系
+Global = [1 2 3];
+
+
+%% for only one body
+%% 截面A上的HA求解
+HA = get_HA(ModelParameter, SolverParameter);
+%% 截面B上的HB求解
+HB = get_HB(ModelParameter, SolverParameter);
+
+%% d, epsilon
+d = logSE3(HA,HB)/L;
+d = d'; 
+du = d(1:3); 
+du = du';
+domega = d(4:6);
+domega = domega';
+
+d0 = [L 0 0 0 0 0]';
+epsilon = (d - d0)/L;
+
+%calculate statics
+do_Statics_Calculation = true;
+if do_Statics_Calculation
+	q0 = ModelParameter.InitialState.q0;
+	SystemForceFcn = @(q)Multi_Body_Dynamics_Force(q,tspan, ...
+		ModelParameter,SolverParameter);
+
+%%Dynamic Function
+%计算MC，K，P
+MC = get_MC(ModelParameter, SolverParameter);
+K = get_K(ModelParameter, SolverParameter);
+P = get_P(d,ModelParameter, SolverParameter);
+%% 设置高斯积分参数
+gaussn = 5;
+x_set = gaussx(0,L,gaussn);
+w_set = gaussw(gaussn)*L/2;
+Integralrecht = 0;
+M = zeros(12);
+for i = 1:gaussn
+	x = x_set(i);
+	w = w_set(i);
+    Q = get_Q(x,d,ModelParameter, SolverParameter);    %Q(6*12)
+    Integralrecht = Integralrecht + w*Q'*gext;
+    M = M + w*Q'*MC*Q;
+end
+
+%%ODE set
+RelativeTolerance = 0.001;
+AbsoluteTolerance = 0.0001;
+MaxStep = 0.1;
+plot_OdeOutput_Handle = [];
+
+opt = odeset('RelTol',RelativeTolerance, ...
+	'AbsTol',AbsoluteTolerance, ...
+	'MaxStep',MaxStep, ...
+	'OutputFcn',plot_OdeOutput_Handle);
+
+%% ODE23 Solver
+[t_set,x_set] = Dynamics_ODE_Solver(...
+	tspan,HA,HB,M,P,K,epsilon,Intergralrecht,x0,opt);
+
+
+
+
+
+

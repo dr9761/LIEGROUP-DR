@@ -1,0 +1,23 @@
+% CasADi_Multibody_Example
+clear;clc;
+load('CasADi_Test_ModelParameter_SolverParameter\n');
+fprintf('Parameter loaded!')
+%%
+[ModelParameter.MassForce_JacobianFunc, ...
+	ModelParameter.State_JacobianFunc]= ...
+	get_MassForce_JacobianFunc_Multi_Body_Dynamic_Symbolic(...
+	ModelParameter);
+fprintf('Symbolic Calculation finished!\n');
+%% Test
+t = 0;
+x = ModelParameter.InitialState.x0;
+u = zeros(ModelParameter.DriveParameter.NodalForceDriveParameter.Drive_Action_Map.Count,1);
+MassJacobianBase = ones(numel(x)/2,1);
+
+[f,StateJacobian_t,StateJacobian_x,StateJacobian_u] ...
+	= get_State_JacobianMatrix_Multi_Body_Dynamic(...
+	t,x,u,ModelParameter.State_JacobianFunc);
+
+[MassJacobian,ForceJacobian_q,ForceJacobian_dq,ForceJacobian_u] ...
+	= get_MassForce_JacobianMatrix_Multi_Body_Dynamic(...
+	x,ModelParameter.MassForce_JacobianFunc,MassJacobianBase);

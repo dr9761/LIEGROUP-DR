@@ -1,0 +1,23 @@
+function [MainBeamParameter] = set_Truss_MainBeam_Parameter(...
+	TrussLength,CrossSectionParameter,BodyParameterTableRaw,BodyNr)
+%%
+MainBeamParameter = struct;
+Section_1_NodeNrSet = str2num(BodyParameterTableRaw{28,BodyNr+3});
+Section_2_NodeNrSet = str2num(BodyParameterTableRaw{29,BodyNr+3});
+MainBeamQuantity = min([...
+	numel(Section_1_NodeNrSet), ...
+	numel(Section_2_NodeNrSet)]);
+%%
+for MainBeamNr = 1:MainBeamQuantity
+	Section_1_NodeNr = Section_1_NodeNrSet(MainBeamNr);
+	Section_2_NodeNr = Section_2_NodeNrSet(MainBeamNr);
+	
+	MainBeamParameter = ...
+		set_Truss_MainBeam_Element_Parameter(...
+		MainBeamNr,Section_1_NodeNr,Section_2_NodeNr, ...
+		TrussLength,CrossSectionParameter,MainBeamParameter, ...
+		BodyParameterTableRaw,BodyNr);
+	
+end
+
+end
